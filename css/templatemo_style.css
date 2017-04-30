@@ -319,7 +319,6 @@ h6 {
 
 #templatemo_logo {
   background-color: #26b864;
-  background-image: url(images/wood_dreams.png);
   background-repeat: no-repeat;
   background-position: 25px center;
   height: 102px;
@@ -487,6 +486,8 @@ h6 {
     Services Styling
    ========================================================================== */
 #services {
+  display: flex;
+  justify-content: center;
   padding-top: 160px;
   margin-top: -60px;
 }
@@ -510,12 +511,7 @@ h6 {
   height: 113px;
   display: block;
 }
-.service-item .service-icon.first {
-  background-image: url(../images/service-first.png);
-}
-.service-item .service-icon.second {
-  background-image: url(../images/service-second.png);
-}
+
 .service-item .service-icon.third {
   background-image: url(../images/service-third.png);
 }

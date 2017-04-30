@@ -67,59 +67,39 @@
         </div> <!-- /.site-header -->
     </div> <!-- /#front -->
 
-    <div class="site-slider">
-        <ul class="bxslider">
-            <li>
-                <img src="images/slide1.jpg" alt="3d panels">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-right">
-                            <div class="slider-caption">
-                                <h2>текст1</h2>
-                            </div>
-                        </div>
+               <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+            
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/slide1.jpg" alt="">
+                    </div>
+            
+                    <div class="item">
+                        <img src="images/slide2.jpg" alt="">
+                    </div>
+            
+                    <div class="item">
+                        <img src="images/slide3.jpg" alt="">
                     </div>
                 </div>
-            </li>
-            <li>
-                <img src="images/slide2.jpg" alt="3d panels">
-                <div class="container caption-wrapper">
-                    <div class="slider-caption">
-                        <h2>текст2</h2>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <img src="images/slide3.jpg" alt="flooring">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-right">
-                            <div class="slider-caption">
-                                <h2>текст3</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <div class="bx-controls-direction">
-                <a class="bx-prev fa fa-angle-left" href=""></a>
-                <a class="bx-next fa fa-angle-right" href=""></a>
+            
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-        </ul> <!-- /.bxslider -->
-        <div class="bx-thumbnail-wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div id="bx-pager">
-                            <a data-slide-index="0" href=""><img src="images/thumb1.jpg" alt="image 1" /></a>
-                            <a data-slide-index="1" href=""><img src="images/thumb2.jpg" alt="image 2" /></a>
-                            <a data-slide-index="2" href=""><img src="images/thumb3.jpg" alt="image 3" /></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> <!-- /.site-slider -->
 
     <div id="services" class="content-section">
         <div class="container">
@@ -134,8 +114,8 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="service-item">
                         <span class="service-icon fourth"></span>
-                        <h3>послуга</h3>
-                        <p>текст</p>
+                        <h3>послуга текст</h3>
+                        <p>птекст</p>
                     </div> <!-- /.service-item -->
                 </div> <!-- /.col-md-3 -->
             </div> <!-- /.row -->
@@ -296,7 +276,7 @@
             </div> <!-- /.row -->
             <div class="row">
                 <div class="col-md-offset-2 col-md-8 text-center bigger-text">
-                    <p>За додатковими питаннями звиртайтись до нас на ектрону почту</p>
+                    <p>За додатковими птаннями звиртайтись до нас на ектрону почту</p>
                 </div>
                 </div> <!-- /.col-md-6 -->
                 <div class="col-md-6 col-sm-6">
@@ -304,13 +284,13 @@
                     <div class="row contact-form">
                     
                         <fieldset class="col-md-6 col-sm-6">
-                            <input id="name" type="text" name="name" заповнити="Name">
+                            <input id="name" type="text" name="name" заповнити="Ім'я">
                         </fieldset>
                         <fieldset class="col-md-6 col-sm-6">
                             <input type="email" name="email" id="email" заповнити="Email">
                         </fieldset>
                         <fieldset class="col-md-12">
-                            <input type="text" name="subject" id="subject" заповнити="product">
+                            <input type="text" name="subject" id="subject" заповнити="Товар">
                         </fieldset>
                         <fieldset class="col-md-12">
                             <textarea name="comments" id="comments" placeholder="повідомлення"></textarea>
@@ -334,7 +314,7 @@
             </div> <!-- /.col-md-6 -->
                 <div class="col-md-4 col-sm-6">
                     <ul class="social">
-                        <li><a href="#" class="fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
                         <li><a href="#" class="fa В Контакті"></a></li>
                         <li><a href="#" class="fa Viber"></a></li>
                     </ul>
